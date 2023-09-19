@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Praktikum 1 SIGWEB M1 </title>
+<meta charset=""utf-8">
+<style>
+  body{background-color: rgb(250, 253, 203);}
+  #fname{
+    margin-bottom: 5px;
+    margin-left: 8.8px;
+  }
+  a{
+    text-decoration: none;
+  }
+  table, th, td { border:1px solid black;}
+</style>
+</head>
+
+<body>
+<!--BODY-->
+  <div id="text">
+  <h1>Praktikum SIGWEB Minggu Ke-2</h1> <!--merupakan first heading pada sebuah teks-->
+  </div>
+
+<p>Praktikum minggu ke-2 SIGWEB ini membahas mengenai penggunaan HTML sederhana.<br><br>Berikut merupakan tautan yang dapat digunakan untuk belajar HTML:</p>
+<a href="https://www.w3schools.com/html/default.asp">Belajar HTML melalui W3School</a> <!--Membuat hyperlink berdasarkan link eksternal-->
+
+<p>Berdasarkan <b>tautan tersebut</b> dapat dipelajari HTML <b>DENGAN MUDAH</b></p> <!--Membuat tulisan menjadi BOLD/TEBAL-->
+<p><i>W3school can be used for beginners because it's easy to learn HTML from there</i><p>
+
+<p style="color:red;"> Di HTML kita juga bisa merubah warna teks menggunakan HTML Styles. <br> Seperti teks ini dan teks diatas yang berwarna merah. <!--Menggunakan inline style untuk mengubah teks paragraf menjadi warna merah-->
+<p style="color:blue;">Pada teks ini memiliki warna biru <!--Menggunakan inline style untuk mengubah teks paragraf menjadi warna biru-->
+
+<p><b>Berikut merupakan peta kewaranan banjir rob semarang</b></p>
+
+<img src="https://imgv2-1-f.scribdassets.com/img/document/334140983/original/768480d24c/1691844086?v=1" alt="Peta Kerawanan Banjir Rob di Semarang" width="700" height="900">
+<!--Menambahkan gambar dari sumber eksternal dengan menggunakan link serta mengatur panjang, lebar, judul gambar, serta keterangan gambar-->
+
+<br>
+
+<h2>Tabel Data Asal Mahasiswa</h2> <!--Merupakan script untuk membuat second heading pada sebuah teks-->
+
+<style> 
+table {
+  Font-family: times new roman, sans-serif;
+    border-collapse:separate;
+    width: 75%;
+}
+td, th {
+  border: 1px solid #000000;
+    text-align: left;
+    padding: 8px
+}
+tr:nth-child(even) {
+  background-color: #bbb8b8;
+}
+</style>
+<!--Script untuk membuat style dari tabel yang diinginkan-->
+
+<table> <!--Script untuk inisiasi tabel-->
+  <tr> <!--Script untuk membuat kolom tabel-->
+    <th>Nama Mahasiswa</th> <!--Script untuk membuat baris yang berperan sebagai judul dari entitas tabel-->
+    <th>Asal Daerah</th>
+    <th>Hobi</th>
+  </tr>
+  <tr>
+    <td>Hasna Silvia W</td> <!--Script untuk membuat isi dari tabel-->
+    <td>Semarang</td>
+    <td>Mendengarkan Musik</td>
+  </tr>
+  <tr>
+    <td>Afifah Azzahrah</td>
+    <td>Surakarta</td>
+    <td>Membaca Buku</td>
+  </tr>
+  <tr>
+    <td>Zuyyina Hanifatul</td>
+    <td>Yogyakarta</td>
+    <td>Bermain Badminton</td>
+  </tr>
+  <tr>
+    <td>Sahrul Rizky</td>
+    <td>Kabumen</td>
+    <td>Menulis Skenario</td>
+  </tr>
+  <tr>
+    <td>Mujieb Hariz</td>
+    <td>Semarang</td>
+    <td>Naik Gunung</td>
+  </tr>
+</table>
+
+<br>
+
+<h2> Formulir Data Mahasiswa Baru </h2>
+
+<!--Script untuk membuat form-->
+<form action="/action_page.php">
+  <label for="fname">Nama:</label>
+<br>
+  <input type="text" id="fname" name="fname"> <!--Kolom input form-->
+<br>
+  <label for="alamat">Alamat Rumah:</label>
+<br>
+  <input type="text" id="alamat" name="alamat">
+<br>
+  <label for="Asal">Asal Daerah: </label>
+<br>
+  <input type="text" id="fname" name="fname">
+<br>
+<br>
+  <input type="submit" value="Belum bisa di-klik">
+</form> 
+
+<br>
+<a href="#text">Kembali ke atas</a>
+
+</body>
+</html>
